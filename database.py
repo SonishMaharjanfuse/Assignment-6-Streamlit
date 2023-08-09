@@ -32,7 +32,7 @@ def create_department():
                     loc VARCHAR(20)
                     )
                     """
-                )
+    )
     connection.commit()
     connection.close()
 
